@@ -1,0 +1,63 @@
+.topbar{
+    text-align: center;
+    margin: 15px;
+    
+}
+#input{
+    height: 5vh;
+    width: 30vh;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#button{
+    background-color: rgb(37, 158, 37);
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 5px;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: rgb(23, 112, 23);
+}
+#button:active{
+    font-size: 1em;
+
+}
+.bottom{
+    
+    text-align: center;
+    height: 60vh;
+    width: 40vh;
+    background: linear-gradient(180deg,rgb(117, 192, 235),rgb(239, 239, 115));
+    border: 0px solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px;
+    margin: auto;
+}
+
+.bottom div{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+#city{
+    font-size: 3em;
+    padding-top: 50px;
+}
+#temp{
+    font-size: 2.7em;
+}
+#humidity{
+    font-size: 1.3em;
+}
+#class{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+}
+#image{
+    font-size: 4em;
+}
