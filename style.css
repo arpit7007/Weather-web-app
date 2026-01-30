@@ -4,6 +4,9 @@
     
 }
 #input{
+   
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 5vh;
     width: 30vh;
     border: 1px solid;
@@ -27,7 +30,7 @@
 
 }
 .bottom{
-    
+    display: none;
     text-align: center;
     height: 60vh;
     width: 40vh;
@@ -53,11 +56,23 @@
 #humidity{
     font-size: 1.3em;
 }
-#class{
+#description{
     font-weight: bold;
     font-style: italic;
     font-size: 2em;
 }
 #image{
     font-size: 4em;
+}
+.default{
+    border: 0px solid;
+    border-radius: 5px;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(180deg,rgb(117, 192, 235),rgb(239, 239, 115));
+    height: 10vh;
+  
 }

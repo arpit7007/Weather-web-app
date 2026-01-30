@@ -4,19 +4,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- <div class ="wrapper"> -->
+        
             <div class="topbar">
                 <input type="text" class="top" id="input">
                 <button class="top" id="button" onclick="getweather(city)">Get Weather</button>
             </div>
-            <div class ="bottom">
-                <div id="city" >Miami</div>
-                <div id="temp">90 deg</div>
-                <div id="humidity">humidity- 90%</div>
-                <div id="class">climate</div>
-                <div id="image"n >😒</div>
+            
+                <div class ="default" id="def">
+                    <h1 id="heading">Enter city name to get weather</h1>
+                </div>
+                
+            <div class ="bottom" id ="bt">
+                <div id="city" ></div>
+                <div id="temp"></div>
+                <div id="humidity"></div>
+                <div id="description"></div>
+                <div id="image" ></div>
             </div>
-        <!-- </div> -->
+       
         <script src="script.js"></script>
     </body>
 </html> 
